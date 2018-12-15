@@ -16,6 +16,7 @@ $l-grey-color-light: lighten($l-grey-color, 40%);
 $l-grey-color-dark:  darken($l-grey-color, 25%);
 $l-code: #EEF;
 $l-crimson: #ffad60;
+$l-blue: #5bc0de;
 $l-nav: $l-text-color;
 $l-page: $l-link-color;
 
@@ -160,6 +161,10 @@ body.light {
 
   .footer-col-wrapper {
     color: $l-grey-color;
+  }
+
+  .footer-accent {
+    color: $l-blue;
   }
 }
 

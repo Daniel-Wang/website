@@ -8,7 +8,7 @@
 # Site settings
 title: Daniel Wang
 email: 
-description: 
+description: My personal website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://danielw.ca" # the base hostname & protocol for your site
 twitter_username: danielwaang
