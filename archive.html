@@ -4,14 +4,8 @@ title : Archive
 permalink: /archive/
 ---
 <div class="home">
-  <div class="wrapper">
-    <br>
-    <br>
-    <br>
-    <center> <p> I'm not planning on writing anything right now, but if I do, it will be here. </p></center>
-  </div>
-</div>
-<!-- {% for post in paginator.posts%}
+
+  {% for post in paginator.posts%}
   <div class="post postContent">
     <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
@@ -60,4 +54,6 @@ permalink: /archive/
         </h2>
       </li>
     {% endfor %}
-  </ul> -->
+  </ul>
+
+</div>

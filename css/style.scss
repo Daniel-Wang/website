@@ -88,6 +88,11 @@ ul, ol, dl, figure,
  * Images
  */
 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile {
     max-width: 20%;
     max-height: 20%;
     vertical-align: middle;
@@ -504,6 +509,7 @@ pre {
   font-size: $small-font-size;
   text-transform: uppercase;
   font-size: 16px;
+  text-align: left;
 }
 .post-link {
   display: block;
@@ -516,13 +522,12 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
-
-  text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
+  font-size: 24px;
+  margin-top: 40px;
+  text-align: left;
+  font-family: "Helvetica";
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 .post-content {
