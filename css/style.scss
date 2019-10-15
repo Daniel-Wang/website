@@ -7,17 +7,17 @@
 
 // Our variables
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   14px;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     40px;
 // Width of the content area
-$content-width:    800px;
+$content-width:    700px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        700px;
 
 
 
@@ -534,7 +534,7 @@ pre {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   h2 {
     font-size: 1.5em;
