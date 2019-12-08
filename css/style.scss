@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
+$base-font-family: Verdana;
+$base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -90,6 +90,7 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     max-height: 100%;
+    margin: 1em;
 }
 
 .profile {
@@ -257,7 +258,7 @@ pre {
 }
 
 .post {
-  font-family: "Source Sans Pro";
+  font-family: Verdana;
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -323,7 +324,6 @@ pre {
   float: right;
 }
 .postTitle {
-  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -354,8 +354,8 @@ pre {
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .site-navigation {
   text-transform: lowercase;
@@ -513,7 +513,7 @@ pre {
 }
 .post-link {
   display: block;
-  font-size: 24px;
+  font-size: 20px;
 }
 /**
  * Posts
@@ -522,38 +522,18 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 40px;
   text-align: left;
-  font-family: "Helvetica";
+  font-family: "Verdana";
   @include media-query($on-laptop) {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
-  p {
-    font-size: 1.2rem;
-  }
-  h2 {
-    font-size: 1.5em;
-    @include media-query($on-laptop) {
-      font-size: 1.5em;
-    }
-  }
-  h3 {
-    font-size: 26px;
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
-  }
-  h4 {
-    font-size: 20px;
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
-  }
+
 }
 
 /**
